@@ -40,7 +40,9 @@ It includes authentication, CRUD operations, filtering, pagination, and more —
 - ❌ Delete Tasks  
 - 🔍 Filter Tasks by Status  
 - 🗳️ Pagination  
-- 🔐 User Login (Mock Authentication)
+- 🔒 Simple Login Page: Access app with  
+  - **Username:** `user`  
+  - **Password:** `1234`
 
 ### 🌟 Additional Features
 - 📅 Clean Task List UI  
@@ -91,13 +93,15 @@ npm run dev
 ### 🔑 Add Environment Variables
 
 ## Create a .env file:
-
+```bash
 MONGO_URI=your_mongo_connection_string
 PORT=9001
 JWT_SECRET=your_secret_key
+```
 
 
 ### 📁 Project Structure
+
 Task_Manager_Yunometa/
 │
 ├── frontend/            
@@ -109,13 +113,15 @@ Task_Manager_Yunometa/
 │   ├── routes/
 │   ├── models/
 │   ├── controllers/
+│   ├── middleware/
 │   └── server.js
 │
 └── README.md
 
+
 ###📝 License
 
-This project is licensed under the MIT License.
+-This project is licensed under the MIT License.
 
 ###👤 Author
 
