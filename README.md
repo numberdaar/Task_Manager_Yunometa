@@ -58,7 +58,7 @@ It includes authentication, CRUD operations, filtering, pagination, and more —
 | **Frontend** | React, Axios, TailwindCSS |
 | **Backend** | Node.js, Express |
 | **Database** | MongoDB / MongoDB Atlas |
-| **Deployment** | Render |
+| **Deployment** | Render, Vercel |
 
 
 ## 🚀 Installation & Setup
@@ -74,13 +74,6 @@ cd Task_Manager_Yunometa
 cd frontend
 npm install
 npm run dev
-```
-
-
-### 🛠 Backend Setup
-##📍 Navigate to Backend
-```bash
-cd backend
 ```
 
 ###  Install Dependencies & Run Backend
@@ -101,7 +94,7 @@ JWT_SECRET=your_secret_key
 
 
 ### 📁 Project Structure
-
+```
 Task_Manager_Yunometa/
 │
 ├── frontend/            
@@ -117,13 +110,19 @@ Task_Manager_Yunometa/
 │   └── server.js
 │
 └── README.md
+```
 
+---
 
-###📝 License
+---
 
--This project is licensed under the MIT License.
+## 📝 License
 
-###👤 Author
+This project is licensed under the **MIT License**.
 
-## Ankit Dalal
+---
+
+## 👤 Author
+
+**Ankit Dalal**  
 🔗 GitHub: https://github.com/numberdaar
