@@ -1,5 +1,5 @@
 import axios from 'axios'
-const BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000'
+const BASE = import.meta.env.VITE_API_BASE || 'https://task-manager-yunometa.onrender.com'
 const client = axios.create({ baseURL: BASE })
 export default {
   createTask: (data)=> client.post('/api/tasks', data).then(r=>r.data),
