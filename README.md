@@ -14,7 +14,7 @@
 
 | Service | Status | Link |
 |--------|--------|------|
-| **Frontend** | ![Deploy](https://img.shields.io/badge/Live-Running-brightgreen?style=flat-square) | https://task-manager-yunometa.onrender.com |
+| **Frontend** | ![Deploy](https://img.shields.io/badge/Live-Running-brightgreen?style=flat-square) | https://task-manager-yunometa.vercel.app/ |
 | **Backend** | ![API](https://img.shields.io/badge/API-Running-blue?style=flat-square) | https://task-manager-yunometa-backend.onrender.com |
 
 ---
@@ -58,23 +58,6 @@ It includes authentication, CRUD operations, filtering, pagination, and more —
 | **Database** | MongoDB / MongoDB Atlas |
 | **Deployment** | Render |
 
----
-
-## 📸 Screenshots
-
-> Replace these images with your actual screenshots  
-> (keep width=800 for perfect GitHub UI display)
-
-### 🔐 Login Page  
-<img src="./screenshots/login.png" width="800"/>
-
-### 📋 Task Dashboard  
-<img src="./screenshots/dashboard.png" width="800"/>
-
-### 📝 Create Task Modal  
-<img src="./screenshots/create-task.png" width="800"/>
-
----
 
 ## 🚀 Installation & Setup
 
@@ -82,32 +65,39 @@ It includes authentication, CRUD operations, filtering, pagination, and more —
 ```bash
 git clone https://github.com/numberdaar/Task_Manager_Yunometa.git
 cd Task_Manager_Yunometa
+```
 
-📦 Install Dependencies
+###  Install Dependencies & Run Frontend
+```bash
+cd frontend
 npm install
-
-▶ Run Frontend
 npm run dev
+```
 
-🛠 Backend Setup
-📍 Navigate to Backend
+
+### 🛠 Backend Setup
+##📍 Navigate to Backend
+```bash
 cd backend
+```
 
-📦 Install Dependencies
+###  Install Dependencies & Run Backend
+```bash
+cd backend
 npm install
+npm run dev
+```
 
-🔑 Add Environment Variables
+### 🔑 Add Environment Variables
 
-Create a .env file:
+## Create a .env file:
 
 MONGO_URI=your_mongo_connection_string
 PORT=9001
 JWT_SECRET=your_secret_key
 
-▶ Run Backend
-npm start
 
-📁 Project Structure
+### 📁 Project Structure
 Task_Manager_Yunometa/
 │
 ├── frontend/            
@@ -123,39 +113,11 @@ Task_Manager_Yunometa/
 │
 └── README.md
 
-🌐 Deployment (Render)
-🚀 Frontend Deployment
-
-Connect GitHub repo
-
-Select frontend folder
-
-Add build command:
-
-npm install && npm run build
-
-
-Set publish directory:
-
-dist
-
-🚀 Backend Deployment
-
-Connect GitHub repo
-
-Select backend folder
-
-Add environment variables
-
-Add start command:
-
-node server.js
-
-📝 License
+###📝 License
 
 This project is licensed under the MIT License.
 
-👤 Author
+###👤 Author
 
-Ankit Dalal
+## Ankit Dalal
 🔗 GitHub: https://github.com/numberdaar
